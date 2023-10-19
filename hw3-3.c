@@ -23,7 +23,7 @@ if ((k+l+m+n)==(o+p+q+r)){
         if(i<j){
 printf("%d\n",i);}
             if(i>j){
-                    printf("%d\n",i);
+                    printf("%d\n",j);
 
                     }
             }
