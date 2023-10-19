@@ -16,4 +16,3 @@ if(m<j){
 printf("%d\n", o);
 return 0;
 }
-
