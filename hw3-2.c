@@ -14,6 +14,7 @@ if(m<j){
     o++;
 }
 if (k<j&&m>l){o--;}
+if (k>j&&m>l){o--;}
 
 printf("%d\n", o);
 return 0;
