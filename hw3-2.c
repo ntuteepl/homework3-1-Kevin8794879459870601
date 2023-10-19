@@ -3,19 +3,17 @@ main()
 {
 int i, j, k,l,m,n,o;
 scanf("%d%d%d%d%d%d", &i, &j, &k,&l,&m,&n);
+o=3;
+if (k<=j||k<=n){
+    o--;
+}
+if(m<=l||m<=j){
+    o--;
+}
+if(i<=l||i<=n){
+    o--;
+}
 
-if (k<j){
-    o++;
-}
-if(m<l){
-    o++;
-}
-if(m<j){
-    o++;
-}
-if (k<j&&m>l){o--;}
-if (k>j&&m>l){o--;}
-if (k>j&&m<l){o--;}
 
 printf("%d\n", o);
 return 0;
