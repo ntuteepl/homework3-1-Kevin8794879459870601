@@ -4,13 +4,13 @@ main()
 int i, j, k,l,m,n,o;
 scanf("%d%d%d%d%d%d", &i, &j, &k,&l,&m,&n);
 o=3;
-if (k<=j||k<=n){
+if (k>=j||k>=n){
     o--;
 }
-if(m<=l||m<=j){
+if(m>=l||m>=j){
     o--;
 }
-if(i<=l||i<=n){
+if(i>=l||i>=n){
     o--;
 }
 
